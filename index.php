@@ -21,8 +21,7 @@ $f3->route('GET /', function ()
 {
     //Display a view
     $view = new Template();
-    echo $view->render('views/home.html');
-
+    echo $view->render('views/home2.html');
 
 }
 );
